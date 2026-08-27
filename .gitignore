@@ -1,0 +1,35 @@
+# Sensitive files
+
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Credentials and secrets
+
+credentials.*
+secrets.*
+config.local.*
+
+# Burp Suite project files
+
+*.burp
+*.burpsuite
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+# Editor files
+
+.vscode/
+.idea/
+
+# Temporary files
+
+*.tmp
+*.temp
+*.log
